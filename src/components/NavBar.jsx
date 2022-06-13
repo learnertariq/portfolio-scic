@@ -15,6 +15,9 @@ const NavBar = () => {
         <Link className="font-bold" to="/">
           Home
         </Link>
+        <Link className="font-bold" to="/blogs">
+          Blogs
+        </Link>
         <a className="font-bold" href="/#contact">
           Contact
         </a>

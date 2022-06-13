@@ -11,6 +11,7 @@ import Footer from "./components/Footer";
 import Moshify from "./components/ProjectDetails/Moshify";
 import Parts from "./components/ProjectDetails/Parts";
 import { ToastContainer } from "react-toastify";
+import Blogs from "./components/Blogs";
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/moshify" element={<Moshify />} />
         <Route path="/parts" element={<Parts />} />
+        <Route path="/blogs" element={<Blogs />} />
       </Routes>
       <Footer />
       <ToastContainer />
