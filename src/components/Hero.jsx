@@ -17,6 +17,7 @@ const Hero = () => {
         </a>
 
         <a
+          target="_blank"
           href="https://drive.google.com/file/d/1-PvZTo-JeUmPfa7NOl-sr4cTIr922dpY/view"
           className="btn btn-outline btn-primary"
         >
