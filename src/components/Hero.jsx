@@ -1,11 +1,24 @@
 import React from "react";
 import profile from "../assets/profile.png";
+import { useSpring, animated } from "react-spring";
 
 const Hero = () => {
+  const styles = useSpring({
+    from: {
+      // opacity: 0,
+      transform: "scale(0)",
+    },
+    to: {
+      // opacity: 1,
+      transform: "scale(1)",
+    },
+    config: { duration: 500 },
+  });
+
   return (
     <div className="flex flex-col items-center">
       <div className="avatar w-72">
-        <img src={profile} alt="" />
+        <animated.img style={styles} src={profile} alt="" />
       </div>
       <div className="hero-description text-center mt-7">
         <h1 className="hero-heading text-5xl mb-5">Md Tariqul Islam</h1>
