@@ -14,8 +14,8 @@ const Carousel = ({ img1 = "", img2 = "", img3 = "" }) => {
           </a>
         </div>
       </div>
-      <div id="slide2" class="carousel-item relative w-full" alt="hello">
-        <img src={img2} class="w-full" />
+      <div id="slide2" class="carousel-item relative w-full">
+        <img src={img2} class="w-full" alt="hello" />
         <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
           <a href="#slide1" class="btn btn-circle">
             ❮
