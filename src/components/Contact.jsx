@@ -1,6 +1,7 @@
 import React from "react";
 import emailjs from "@emailjs/browser";
 import contactImg from "../assets/contact.png";
+import { toast } from "react-toastify";
 
 const Contact = () => {
   const handleKnock = (e) => {
@@ -16,9 +17,11 @@ const Contact = () => {
       .then(
         (result) => {
           console.log(result.text);
+          toast.success("I will contact you soon");
         },
         (error) => {
           console.log(error.text);
+          toast.error("Something Wrong");
         }
       );
   };
