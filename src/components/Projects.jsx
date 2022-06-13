@@ -4,6 +4,7 @@ import partsImg from "../assets/parts.JPG";
 import messyImg from "../assets/messy.jpg";
 import todoImg from "../assets/todo.jpg";
 import dashImg from "../assets/dash.JPG";
+import { Link } from "react-router-dom";
 
 const Projects = () => {
   return (
@@ -37,6 +38,9 @@ const Projects = () => {
           </div>
         </div>
         <div className="links flex gap-3 mt-4 justify-center">
+          <Link className="btn btn-sm btn-secondary" to="moshify">
+            Details
+          </Link>
           <a
             href="https://programmertariq.github.io/moshify/"
             className="btn btn-sm btn-primary"
@@ -99,6 +103,10 @@ const Projects = () => {
           </div>
         </div>
         <div className="links flex gap-3 mt-4 justify-center">
+          <Link className="btn btn-sm btn-secondary" to="parts">
+            Details
+          </Link>
+
           <a
             href="https://tariq-mobile-parts.web.app/"
             className="btn btn-sm btn-primary"
@@ -154,6 +162,10 @@ const Projects = () => {
           </div>
         </div>
         <div className="links flex gap-3 mt-4 justify-center">
+          <Link className="btn btn-sm btn-secondary" to="moshify">
+            Details
+          </Link>
+
           <a
             href="https://messy-chooser.netlify.app/"
             className="btn btn-sm btn-primary"
@@ -214,6 +226,10 @@ const Projects = () => {
           </div>
         </div>
         <div className="links flex gap-3 mt-4 justify-center">
+          <Link className="btn btn-sm btn-secondary" to="moshify">
+            Details
+          </Link>
+
           <a
             href="https://todo-d1553.web.app/"
             className="btn btn-sm btn-primary"
@@ -241,10 +257,9 @@ const Projects = () => {
           <div className="description w-96 max-w-full">
             <h2 className="text-2xl mb-3">Theme Products Analysis</h2>
             <p>
-              You can choose a product/laptop and add to cart. then you can
-              remove the item from the cart. and you cannot choose more than 4
-              items from the cart. lastly you can also clear all items from the
-              cart.
+              Here You can analyze your products. There is a section of customer
+              review. And most beautiful chart examples in inside dashboard
+              using 'Recharts'.
             </p>
           </div>
         </div>
@@ -272,6 +287,10 @@ const Projects = () => {
           </div>
         </div>
         <div className="links flex gap-3 mt-4 justify-center">
+          <Link className="btn btn-sm btn-secondary" to="moshify">
+            Details
+          </Link>
+
           <a
             href="https://the-theme-you-love.netlify.app/"
             className="btn btn-sm btn-primary"

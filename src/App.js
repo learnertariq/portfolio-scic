@@ -8,6 +8,8 @@ import Projects from "./components/Projects";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import Moshify from "./components/ProjectDetails/Moshify";
+import Parts from "./components/ProjectDetails/Parts";
 
 function App() {
   return (
@@ -25,6 +27,8 @@ function App() {
           }
         />
         <Route path="/about" element={<About />} />
+        <Route path="/moshify" element={<Moshify />} />
+        <Route path="/parts" element={<Parts />} />
       </Routes>
       <Footer />
     </>
