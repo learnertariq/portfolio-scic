@@ -3,6 +3,7 @@ import moshifyImg from "../assets/moshify.jpg";
 import partsImg from "../assets/parts.JPG";
 import messyImg from "../assets/messy.jpg";
 import todoImg from "../assets/todo.jpg";
+import dashImg from "../assets/dash.JPG";
 
 const Projects = () => {
   return (
@@ -230,6 +231,58 @@ const Projects = () => {
             className="btn btn-sm btn-primary"
           >
             Server Repo
+          </a>
+        </div>
+      </div>
+      <div className="divider"></div>
+      <div className="project">
+        <div className="top-container flex justify-center gap-8 flex-wrap">
+          <img src={dashImg} alt="" />
+          <div className="description w-96 max-w-full">
+            <h2 className="text-2xl mb-3">Theme Products Analysis</h2>
+            <p>
+              You can choose a product/laptop and add to cart. then you can
+              remove the item from the cart. and you cannot choose more than 4
+              items from the cart. lastly you can also clear all items from the
+              cart.
+            </p>
+          </div>
+        </div>
+        <div className="technologies text-center mt-5">
+          <h2 className="text-xl mb-3">Technologies</h2>
+          <div className=" flex justify-center gap-4">
+            <div className="border-solid border-2 border-accent rounded-full px-4 py-1">
+              React.js
+            </div>
+            <div className="border-solid border-2 border-accent rounded-full px-4 py-1">
+              Recharts
+            </div>
+            <div className="border-solid border-2 border-accent rounded-full px-4 py-1">
+              HTML
+            </div>
+            <div className="border-solid border-2 border-accent rounded-full px-4 py-1">
+              CSS
+            </div>
+            <div className="border-solid border-2 border-accent rounded-full px-4 py-1">
+              JavaScript
+            </div>
+            <div className="border-solid border-2 border-accent rounded-full px-4 py-1">
+              Bootstrap
+            </div>
+          </div>
+        </div>
+        <div className="links flex gap-3 mt-4 justify-center">
+          <a
+            href="https://the-theme-you-love.netlify.app/"
+            className="btn btn-sm btn-primary"
+          >
+            Live Site
+          </a>
+          <a
+            href="https://github.com/programmertariq/product-analysis-assignment"
+            className="btn btn-sm btn-primary"
+          >
+            Client Repo
           </a>
         </div>
       </div>
