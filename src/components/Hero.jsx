@@ -18,6 +18,7 @@ const Hero = () => {
 
         <a
           target="_blank"
+          rel="noreferrer"
           href="https://drive.google.com/file/d/1-PvZTo-JeUmPfa7NOl-sr4cTIr922dpY/view"
           className="btn btn-outline btn-primary"
         >
