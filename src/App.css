@@ -1,0 +1,30 @@
+body {
+  background-color: #eee4;
+}
+
+.nav-arrow {
+  animation: mymove 3.5s linear 0s infinite;
+  position: relative;
+  /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+}
+
+@keyframes mymove {
+  0% {
+    left: 0px;
+  }
+  5% {
+    left: -20px;
+  }
+  10% {
+    left: 0px;
+  }
+  15% {
+    left: -20px;
+  }
+  20% {
+    left: 0px;
+  }
+  100% {
+    left: 0px;
+  }
+}
